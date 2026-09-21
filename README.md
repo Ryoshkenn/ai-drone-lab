@@ -1,6 +1,6 @@
-# NeuroFlight Lab
+# AI Drone Lab
 
-NeuroFlight Lab is a reproducible research project exploring whether a small neural network can learn general quadrotor flight-control behavior from randomly initialized weights in simulation.
+AI Drone Lab is a reproducible research project exploring whether a small neural network can learn general quadrotor flight-control behavior from randomly initialized weights in simulation.
 
 The project begins with a deliberately narrow target: **learn a stable 10-second hover from varied starting positions and orientations using numerical state observations**. Gate navigation, camera-only control, simulator transfer, and physical flight are later milestones—not claims about the current system.
 
@@ -34,7 +34,7 @@ This repository pins Python 3.12 and the exact simulator revision used for the f
 uv sync --extra dev
 uv run pytest
 uv run ruff check .
-uv run neuroflight-smoke --steps 30 --seed 0
+uv run ai-drone-lab-smoke --steps 30 --seed 0
 ```
 
 The smoke test uses random actions. It validates the integration; it is not a learning result.

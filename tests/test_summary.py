@@ -1,7 +1,7 @@
 import numpy as np
 
-from neuroflight.smoke import _space_summary
-from neuroflight.summary import canonical_json, observation_digest
+from ai_drone_lab.smoke import _space_summary
+from ai_drone_lab.summary import canonical_json, observation_digest
 
 
 def test_observation_digest_is_stable() -> None:

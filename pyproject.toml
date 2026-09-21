@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "neuroflight-lab"
+name = "ai-drone-lab"
 version = "0.1.0"
 description = "A reproducible research project for learning quadrotor control from scratch in simulation."
 readme = "README.md"
@@ -21,10 +21,10 @@ dev = [
 ]
 
 [project.scripts]
-neuroflight-smoke = "neuroflight.smoke:main"
+ai-drone-lab-smoke = "ai_drone_lab.smoke:main"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/neuroflight"]
+packages = ["src/ai_drone_lab"]
 
 [tool.hatch.metadata]
 allow-direct-references = true

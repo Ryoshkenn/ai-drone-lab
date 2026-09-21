@@ -15,7 +15,7 @@ import numpy as np
 from gym_pybullet_drones.envs.HoverAviary import HoverAviary
 from gym_pybullet_drones.utils.enums import ActionType, ObservationType
 
-from neuroflight.summary import canonical_json, observation_digest
+from ai_drone_lab.summary import canonical_json, observation_digest
 
 
 def _space_summary(space: Any) -> dict[str, Any]:
