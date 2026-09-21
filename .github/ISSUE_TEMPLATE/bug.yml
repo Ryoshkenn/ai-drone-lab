@@ -1,0 +1,25 @@
+name: Bug report
+description: Report a reproducible problem in code, setup, or an experiment
+title: "bug: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed behavior
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Include commit, environment, seed, and exact commands.
+    validations:
+      required: true
+

@@ -1,0 +1,34 @@
+name: Experiment
+description: Propose a reproducible training or evaluation run
+title: "experiment: "
+labels: ["experiment"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: What single question will this experiment answer?
+    validations:
+      required: true
+  - type: textarea
+    id: hypothesis
+    attributes:
+      label: Hypothesis
+      description: Record this before interpreting results.
+    validations:
+      required: true
+  - type: textarea
+    id: protocol
+    attributes:
+      label: Protocol
+      description: Include baseline, seeds, metrics, and held-out evaluation.
+    validations:
+      required: true
+  - type: textarea
+    id: completion
+    attributes:
+      label: Completion evidence
+      description: What artifacts and thresholds will close this issue?
+    validations:
+      required: true
+

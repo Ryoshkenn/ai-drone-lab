@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Generated experiment outputs. Keep compact manifests and summaries in Git.
+artifacts/
+checkpoints/
+runs/
+videos/
+work/
+*.zip
+*.pt
+*.pth
+
+# Local/editor files
+.env
+.env.*
+!.env.example
+.DS_Store
+.idea/
+.vscode/
