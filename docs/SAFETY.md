@@ -26,4 +26,3 @@ All items require explicit review and a recorded go/no-go decision:
 - No physical deployment based on a best-run video or a single seed.
 
 The safety plan must be updated for the actual aircraft, location, and current regulations before real-world work begins.
-

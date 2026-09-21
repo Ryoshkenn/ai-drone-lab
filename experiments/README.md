@@ -10,4 +10,3 @@ experiments/YYYY-MM-DD-short-name/
 ```
 
 Large raw outputs belong in ignored `artifacts/`, `runs/`, `checkpoints/`, or `videos/` directories. A tracked manifest should state where they were stored and include checksums for important files.
-

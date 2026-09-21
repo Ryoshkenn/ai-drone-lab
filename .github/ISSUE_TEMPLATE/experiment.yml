@@ -31,4 +31,3 @@ body:
       description: What artifacts and thresholds will close this issue?
     validations:
       required: true
-

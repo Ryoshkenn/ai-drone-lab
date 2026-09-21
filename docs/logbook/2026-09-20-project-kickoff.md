@@ -25,7 +25,7 @@ This snapshot describes the machine used during kickoff, not a minimum requireme
 
 ## Evidence status
 
-No learning experiment has been completed. The first committed execution evidence should be the Phase 0 smoke-test manifest, followed by an upstream PPO reproduction.
+The Phase 0 [environment smoke test](../../experiments/2026-09-20-environment-smoke/README.md) passed: four unit tests and lint completed, the summary was valid JSON, and two seed-0 runs matched byte-for-byte. The random controller truncated after 13 steps, as documented. No learning experiment has been completed; the next evidence target is an upstream PPO reproduction.
 
 ## Setup observations
 
@@ -40,4 +40,4 @@ The first `uv sync --extra dev` attempt resolved the pinned dependency graph but
 
 ## Next action
 
-Create and run the isolated environment, commit the resulting lockfile, execute the smoke test twice with the same seed, and record the outputs in an experiment manifest.
+Benchmark headless simulator throughput and reproduce the upstream PPO hover example with a recorded configuration, seed set, wall-clock time, and evaluation metrics.

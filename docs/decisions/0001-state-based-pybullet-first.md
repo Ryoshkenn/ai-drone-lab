@@ -17,4 +17,3 @@ Begin with numerical kinematic observations and a hover task in `gym-pybullet-dr
 - Existing physics and PPO code are dependencies, so “from scratch” applies to randomly initialized policy/value weights—not every software layer.
 - A learned hover is necessary evidence, but it is not yet FPV racing or real-world autonomy.
 - The simulator and default task must be audited before results are treated as owned experiments.
-

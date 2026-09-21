@@ -16,4 +16,3 @@ Use an isolated Python 3.12 environment managed with `uv`. Pin `gym-pybullet-dro
 - Setup downloads a separate Python runtime and does not modify the system Python.
 - Updating the simulator requires an explicit dependency change and a new validation run.
 - Exact reproduction still depends on recording the generated lockfile, OS, architecture, and hardware.
-

@@ -72,4 +72,3 @@ The repository is designed to show the work through reproducible commits and evi
 ## License
 
 No license has been selected yet. Until the owner chooses one, normal copyright rules apply.
-

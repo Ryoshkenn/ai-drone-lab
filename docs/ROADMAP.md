@@ -80,4 +80,3 @@ This phase requires a new, explicit decision record. It cannot begin merely beca
 - Baselines and evaluation protocol are stated.
 - Aggregate results and failures are retained.
 - The conclusion says what the evidence supports and what it does not.
-

@@ -10,4 +10,3 @@ This file keeps the project record honest without understating the project owner
 - Technical decisions are provisional until accepted or revised by the owner through commits and decision records.
 
 Going forward, experiment manifests should name the person who ran the experiment and disclose substantial generated code or analysis assistance. Git history, review notes, raw metrics, and reproducible commands are the primary evidence of contribution.
-

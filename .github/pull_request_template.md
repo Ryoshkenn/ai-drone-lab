@@ -12,4 +12,3 @@ What question or problem does this change address?
 ## Safety and scope
 
 - [ ] This change stays within the current simulation-only boundary, or an approved decision record expands it.
-

@@ -22,4 +22,3 @@ body:
       description: Include commit, environment, seed, and exact commands.
     validations:
       required: true
-

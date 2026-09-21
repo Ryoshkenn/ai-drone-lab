@@ -12,4 +12,3 @@ Each entry should contain:
 - next action.
 
 Do not rewrite an old entry to make a later outcome look expected. Add a correction or a new entry instead.
-

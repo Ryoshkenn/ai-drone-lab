@@ -19,4 +19,3 @@ def observation_digest(observation: np.ndarray) -> str:
 def canonical_json(data: dict[str, Any]) -> str:
     """Serialize a summary consistently for comparison and version control."""
     return json.dumps(data, indent=2, sort_keys=True) + "\n"
-

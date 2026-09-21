@@ -1,0 +1,32 @@
+{
+  "action_space": {
+    "dtype": "float32",
+    "high_max": 1.0,
+    "low_min": -1.0,
+    "shape": [
+      1,
+      4
+    ]
+  },
+  "executed_steps": 13,
+  "final_observation_digest": "f10c551ea4957f9a",
+  "initial_observation_digest": "cdb65770ab4e5fb1",
+  "observation_space": {
+    "dtype": "float32",
+    "high_max": null,
+    "low_min": null,
+    "shape": [
+      1,
+      72
+    ]
+  },
+  "platform": "Linux-7.0.0-30-generic-x86_64-with-glibc2.43",
+  "python": "3.12.14",
+  "requested_steps": 30,
+  "seed": 0,
+  "simulator": "gym_pybullet_drones",
+  "simulator_version": "2.2.0",
+  "terminated": false,
+  "total_reward": 17.74149663,
+  "truncated": true
+}

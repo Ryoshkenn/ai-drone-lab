@@ -43,4 +43,3 @@ What does the evidence support? What does it not support?
 ## Follow-up
 
 State the next experiment or decision.
-
